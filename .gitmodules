@@ -1,3 +1,3 @@
-[submodule "leiline/themes/jughead"]
-	path = leiline/themes/jughead
-	url = https://github.com/ananthb/jughead.git
+[submodule "leiline/themes/hugo-profile"]
+	path = leiline/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
