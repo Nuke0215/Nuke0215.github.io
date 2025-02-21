@@ -1,0 +1,3 @@
+[submodule "leiline/themes/jughead"]
+	path = leiline/themes/jughead
+	url = https://github.com/ananthb/jughead.git
