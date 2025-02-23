@@ -5,6 +5,7 @@
 <https://gohugo.io/>
 
 <https://github.com/tomfran/typo.git>
+
 <https://github.com/gurusabarish/hugo-profile.git>
 
 <https://formspree.io/>
