@@ -13,11 +13,7 @@
 			"version": "latest",
 			"dockerDashComposeVersion": "latest"
 		},
-		"ghcr.io/devcontainers/features/git:1": {
-			"ppa": true,
-			"version": "os-provided"
-		},
-		"ghcr.io/devcontainers/features/hugo:1": {
+			"ghcr.io/devcontainers/features/hugo:1": {
 			"version": "latest"
 		}
 	},
@@ -39,8 +35,9 @@
 			"ms-azuretools.vscode-docker",
 			"esbenp.prettier-vscode",
 			"redhat.vscode-yaml",
-			"DavidAnson.vscode-markdownlint"
-		  ]
+			"DavidAnson.vscode-markdownlint",
+			"tamasfe.even-better-toml"
+		]
 		}
 	  },
 

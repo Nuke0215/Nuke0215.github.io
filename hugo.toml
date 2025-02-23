@@ -1,0 +1,95 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-fr'
+title = 'Leiline - Typo'
+theme = 'typo'
+
+# Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+#colorPalette = default, default, catpuccin, gruvebox, eink
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Mehdi ABI-AYAD'
+homeIntroContent = """
+Passionné par l’univers de l'IT, j’ai entrepris une reconversion après un apprentissage en autodidacte et une formation certifiante. 
+Fort d’une expérience en restauration où j’ai développé des compétences transversales précieuses, je suis à la recherche d’un stage de fin de formation en tant que DevOps pour mettre en pratique mes connaissances et contribuer activement aux projets de l’entreprise.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Footer
+showFooter = true
+# footerContent = "Your **custom** md `footer`"
+
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "Test"
+url = "/test"
+
+[[params.menu]]
+name = "Bio"
+url = "/bio"
+
+[[params.menu]]
+name = "Experiences"
+url = "/experiences"
+
+[[params.menu]]
+name = "Diplomes"
+url = "/diplomes"
+
+[[params.menu]]
+name = "Projets"
+url = "/projets"
+
+
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
