@@ -1,3 +1,11 @@
 [submodule "themes/typo"]
 	path = themes/typo
 	url = https://github.com/tomfran/typo.git
+
+[submodule "themes/sada"]
+	path = themes/sada
+	url = https://github.com/darshanbaral/sada.git
+	
+[submodule "themes/aafu"]
+	path = themes/aafu
+	url = https://github.com/darshanbaral/aafu.git
