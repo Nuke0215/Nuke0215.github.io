@@ -1,6 +1,3 @@
 [submodule "themes/aafu"]
 	path = themes/aafu
 	url = https://github.com/darshanbaral/aafu.git
-[submodule "themes/themes/aafu"]
-	path = themes/themes/aafu
-	url = https://github.com/darshanbaral/aafu.git
