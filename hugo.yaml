@@ -61,7 +61,7 @@ Menus:
 
 params:
   title: "leiline"
-  description: Text about my cool site
+  description: Mehdi's Resume
   # staticPath: ""  # The path to serve the static files from
   favicon: "/leiline.png"
 
@@ -134,9 +134,9 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
+    intro: "Hello, je suis"
+    title: "Mehdi."
+    subtitle: "DevOps, ex Chef Barman"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     # image: /images/hero.svg
     bottomImage:
@@ -147,16 +147,16 @@ params:
       name: "Resume"
       url: "#"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
         - icon: fab fa-linkedin
           url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -364,7 +364,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:test@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
