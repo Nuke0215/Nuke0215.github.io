@@ -136,8 +136,8 @@ params:
     enable: true
     intro: "Hello, je suis"
     title: "Mehdi."
-    subtitle: "DevOps, ex Chef Barman"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    subtitle: "DevOps"
+    content: "Presentation"
     # image: /images/hero.svg
     bottomImage:
       enable: true
@@ -181,7 +181,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Experiences"
     items:
       - job: "Senior Software Developer"
         company: "Facebook"
@@ -246,7 +246,7 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "Formations"
     index: false
     items:
       - title: "Master of Business Administration"
