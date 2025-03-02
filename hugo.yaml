@@ -138,7 +138,7 @@ params:
     title: "Mehdi."
     subtitle: "DevOps"
     content: "Presentation"
-    # image: /images/hero.svg
+    image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -151,9 +151,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/Nuke0215
         - icon: fab fa-linkedin
-          url: https://example.com
+          url: https://www.linkedin.com/in/nuke0215/
+        - icon: fas fa-certificate
+          url: https://www.credly.com/users/nuke0215
+          
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
