@@ -1,6 +1,8 @@
 baseURL: https://example.org/
 languageCode: fr-fr
 title: leiline
+security:
+  enableInlineShortcodes: true
 
 theme: nukugo-profile
 
@@ -410,7 +412,7 @@ params:
 
   # For translations
   terms:
-    read: "Read"
+    read: "Voir"
     toc: "Table Of Contents"
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
