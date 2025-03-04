@@ -1,0 +1,33 @@
+# Étape 1 : Développement (Hugo Server)
+FROM node:18-alpine AS development
+
+# Installer Hugo
+RUN apk add --no-cache hugo
+
+# Copier les fichiers du projet Hugo
+COPY . /app
+WORKDIR /app
+
+# Exposer le port 1313 (port par défaut de Hugo Server)
+EXPOSE 1313
+
+# Commande pour démarrer Hugo en mode développement
+CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseURL", "http://localhost:1313"]
+
+# Étape 2 : Build (Génération des fichiers statiques)
+FROM development AS build
+
+# Générer les fichiers statiques dans le dossier /public
+RUN hugo --minify
+
+# Étape 3 : Production (Serveur Nginx)
+FROM nginx:alpine AS production
+
+# Copier les fichiers générés depuis l'étape de build
+COPY --from=build /app/public /usr/share/nginx/html
+
+# Exposer le port 80
+EXPOSE 80
+
+# Commande par défaut pour démarrer Nginx
+CMD ["nginx", "-g", "daemon off;"]
