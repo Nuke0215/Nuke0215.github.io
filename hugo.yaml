@@ -2,7 +2,7 @@ baseURL: https://example.org/
 languageCode: fr-fr
 title: leiline
 
-theme: hugo-profile
+theme: nukugo-profile
 
 outputs:
   home:
@@ -31,10 +31,10 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Badges
-      title: Badges
-      url: /badges
+    - identifier: Test
+      name: Certifications
+      title: Certifs
+      url: /certifs
       weight: 1
     # - identifier: gallery
     #   name: Gallery
@@ -290,9 +290,32 @@ params:
           enable: true
           url: "https://example.com"
 
+ # Achievements
+  achievements:
+    enable: true
+    title: "Licences et Certifications"
+    items:
+      - title: Network Defense
+        content: Issued by Cisco Networking Academy.
+        url: 
+        image: /images/network-defense.png
+      - title: English for IT 1
+        content: Developed a product using Artificial Intelligence.
+        url: 
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
   # projects
   projects:
-    enable: false
+    enable: true
     title: "Projets"
     items:
       - title: Hugo Profile
@@ -340,28 +363,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
- # Achievements
-  achievements:
-    enable: true
-    title: "Licences et Certifications"
-    items:
-      - title: Network Defense
-        content: Issued by Cisco Networking Academy.
-        url: 
-        image: /images/network-defense.png
-      - title: English for IT 1
-        content: Developed a product using Artificial Intelligence.
-        url: 
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+
 
 
 

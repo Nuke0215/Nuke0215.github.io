@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Badges on leiline</title>
-    <link>http://localhost:1313/tags/badges/</link>
-    <description>Recent content in Badges on leiline</description>
+    <title>Certifications on leiline</title>
+    <link>http://localhost:1313/certifications/</link>
+    <description>Recent content in Certifications on leiline</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <atom:link href="http://localhost:1313/tags/badges/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/certifications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Badges</title>
-      <link>http://localhost:1313/certifs/badges/</link>
+      <link>http://localhost:1313/certifications/badges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/certifs/badges/</guid>
+      <guid>http://localhost:1313/certifications/badges/</guid>
       <description>&lt;div data-iframe-width=&#34;150&#34; data-iframe-height=&#34;270&#34; data-share-badge-id=&#34;467d880c-e60d-4756-aed9-21f148818dce&#34; data-share-badge-host=&#34;https://www.credly.com&#34;&gt;&lt;/div&gt;&lt;script type=&#34;text/javascript&#34; async src=&#34;//cdn.credly.com/assets/utilities/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;div data-iframe-width=&#34;150&#34; data-iframe-height=&#34;270&#34; data-share-badge-id=&#34;351c26f9-630e-49d6-9a03-3bd0ce1be69f&#34; data-share-badge-host=&#34;https://www.credly.com&#34;&gt;&lt;/div&gt;&lt;script type=&#34;text/javascript&#34; async src=&#34;//cdn.credly.com/assets/utilities/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;div data-iframe-width=&#34;150&#34; data-iframe-height=&#34;270&#34; data-share-badge-id=&#34;235be51a-e8ea-41f6-99f7-d9616e0f99e1&#34; data-share-badge-host=&#34;https://www.credly.com&#34;&gt;&lt;/div&gt;&lt;script type=&#34;text/javascript&#34; async src=&#34;//cdn.credly.com/assets/utilities/embed.js&#34;&gt;&lt;/script&gt;</description>
     </item>
   </channel>
